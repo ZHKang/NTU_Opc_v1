@@ -770,7 +770,7 @@ ReturnMatrix Operational_Space::torque_operational(Robot_basic &robot, const Col
 	xdn = xd;
 	for (int i = 1; i <= dof; i++)
 	{
-		if (S(i) <= s0)  // if face the singular direction, something turn constrainted!!
+		if (S(i) <= s0)  // if in the singular direction, something turn constrainted!!
 		{
 			DiagonalMatrix S_sing(i - 1);
 			Matrix U_sing(U.Nrows(), i - 1);
