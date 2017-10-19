@@ -21,7 +21,10 @@
   <ItemGroup>
     <ClCompile Include="..\..\remoteApi\extApi.c" />
     <ClCompile Include="..\..\remoteApi\extApiPlatform.c" />
-    <ClCompile Include="test_v0.cpp" />
+    <ClCompile Include="test_osc_singular.cpp" />
+    <ClCompile Include="test_v0.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\newmat\newmat.vcxproj">

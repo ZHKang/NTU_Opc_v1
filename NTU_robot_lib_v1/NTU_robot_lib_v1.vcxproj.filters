@@ -24,6 +24,9 @@
     <ClCompile Include="..\..\remoteApi\extApiPlatform.c">
       <Filter>原始程式檔</Filter>
     </ClCompile>
+    <ClCompile Include="test_osc_singular.cpp">
+      <Filter>原始程式檔</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Robot_main.h">
