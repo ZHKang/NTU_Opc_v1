@@ -1,0 +1,69 @@
+﻿已經開始建置於 2017/9/27 下午 08:08:13。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\newmat\newmat.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\3rdParty\newmat /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\3rdParty\newmat\bandmat.cpp ..\3rdParty\newmat\cholesky.cpp ..\3rdParty\newmat\evalue.cpp ..\3rdParty\newmat\fft.cpp ..\3rdParty\newmat\hholder.cpp ..\3rdParty\newmat\jacobi.cpp ..\3rdParty\newmat\myexcept.cpp ..\3rdParty\newmat\newfft.cpp ..\3rdParty\newmat\newmat1.cpp ..\3rdParty\newmat\newmat2.cpp ..\3rdParty\newmat\newmat3.cpp ..\3rdParty\newmat\newmat4.cpp ..\3rdParty\newmat\newmat5.cpp ..\3rdParty\newmat\newmat6.cpp ..\3rdParty\newmat\newmat7.cpp ..\3rdParty\newmat\newmat8.cpp ..\3rdParty\newmat\newmat9.cpp ..\3rdParty\newmat\newmatex.cpp ..\3rdParty\newmat\newmatnl.cpp ..\3rdParty\newmat\newmatrm.cpp ..\3rdParty\newmat\nm_misc.cpp ..\3rdParty\newmat\solution.cpp ..\3rdParty\newmat\sort.cpp ..\3rdParty\newmat\submat.cpp ..\3rdParty\newmat\svd.cpp
+         svd.cpp
+         submat.cpp
+         sort.cpp
+         solution.cpp
+         nm_misc.cpp
+         newmatrm.cpp
+         newmatnl.cpp
+         newmatex.cpp
+         newmat9.cpp
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\newmat\newmat9.cpp(45): warning C4244: '正在初始化' : 將 'std::streamsize' 轉換為 'int'，由於類型不同，可能導致資料遺失
+         newmat8.cpp
+         newmat7.cpp
+         newmat6.cpp
+         newmat5.cpp
+         newmat4.cpp
+         newmat3.cpp
+         newmat2.cpp
+         newmat1.cpp
+         newfft.cpp
+         myexcept.cpp
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\newmat\myexcept.cpp(78): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 請參閱 'strcpy' 的宣告
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\newmat\myexcept.cpp(81): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 請參閱 'strncpy' 的宣告
+         jacobi.cpp
+         正在產生程式碼...
+         正在編譯...
+         hholder.cpp
+         fft.cpp
+         evalue.cpp
+         cholesky.cpp
+         bandmat.cpp
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\Debug\newmat.lib" /NOLOGO Debug\bandmat.obj
+         Debug\cholesky.obj
+         Debug\evalue.obj
+         Debug\fft.obj
+         Debug\hholder.obj
+         Debug\jacobi.obj
+         Debug\myexcept.obj
+         Debug\newfft.obj
+         Debug\newmat1.obj
+         Debug\newmat2.obj
+         Debug\newmat3.obj
+         Debug\newmat4.obj
+         Debug\newmat5.obj
+         Debug\newmat6.obj
+         Debug\newmat7.obj
+         Debug\newmat8.obj
+         Debug\newmat9.obj
+         Debug\newmatex.obj
+         Debug\newmatnl.obj
+         Debug\newmatrm.obj
+         Debug\nm_misc.obj
+         Debug\solution.obj
+         Debug\sort.obj
+         Debug\submat.obj
+         Debug\svd.obj
+         newmat.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\Debug\newmat.lib
+     1>專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\newmat\newmat.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:05.93
