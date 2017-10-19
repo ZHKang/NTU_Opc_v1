@@ -1,0 +1,63 @@
+﻿已經開始建置於 2017/9/27 下午 08:08:37。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\roboop.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\3rdParty\newmat /I..\3rdParty\roboop /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\3rdParty\roboop\clik.cpp ..\3rdParty\roboop\comp_dq.cpp ..\3rdParty\roboop\comp_dqp.cpp ..\3rdParty\roboop\config.cpp ..\3rdParty\roboop\controller.cpp ..\3rdParty\roboop\control_select.cpp ..\3rdParty\roboop\delta_t.cpp ..\3rdParty\roboop\dynamics.cpp ..\3rdParty\roboop\dynamics_sim.cpp ..\3rdParty\roboop\homogen.cpp ..\3rdParty\roboop\invkine.cpp ..\3rdParty\roboop\IOfile.cpp ..\3rdParty\roboop\kinemat.cpp ..\3rdParty\roboop\quaternion.cpp ..\3rdParty\roboop\robot.cpp ..\3rdParty\roboop\trajectory.cpp ..\3rdParty\roboop\utils.cpp
+         utils.cpp
+         trajectory.cpp
+         robot.cpp
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(441): warning C4800: 'Real' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(402): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(556): warning C4800: 'Real' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(511): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(617): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(683): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(784): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\robot.cpp(949): warning C4101: 'e' : 未參考的區域變數
+         quaternion.cpp
+         kinemat.cpp
+         IOfile.cpp
+         invkine.cpp
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(313): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(474): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(580): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(720): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(881): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(988): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(1115): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(1276): warning C4101: 'e' : 未參考的區域變數
+     1>c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_robot_lib_v1\3rdparty\roboop\invkine.cpp(1384): warning C4101: 'e' : 未參考的區域變數
+         homogen.cpp
+         dynamics_sim.cpp
+         dynamics.cpp
+         delta_t.cpp
+         control_select.cpp
+         controller.cpp
+         config.cpp
+         comp_dqp.cpp
+         comp_dq.cpp
+         clik.cpp
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\Debug\roboop.lib" /NOLOGO Debug\clik.obj
+         Debug\comp_dq.obj
+         Debug\comp_dqp.obj
+         Debug\config.obj
+         Debug\controller.obj
+         Debug\control_select.obj
+         Debug\delta_t.obj
+         Debug\dynamics.obj
+         Debug\dynamics_sim.obj
+         Debug\homogen.obj
+         Debug\invkine.obj
+         Debug\IOfile.obj
+         Debug\kinemat.obj
+         Debug\quaternion.obj
+         Debug\robot.obj
+         Debug\trajectory.obj
+         Debug\utils.obj
+         roboop.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\Debug\roboop.lib
+     1>專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\roboop.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:09.89

@@ -1,0 +1,8 @@
+﻿已經開始建置於 2017/9/27 下午 06:24:16。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\NTU_robot_lib_v1\NTU_robot_lib_v1.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for v141 (Platform Toolset = 'v141') cannot be found. To build using the v141 build tools, please install v141 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
+     1>專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\NTU_robot_lib_v1\NTU_robot_lib_v1.vcxproj" (Rebuild 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.09

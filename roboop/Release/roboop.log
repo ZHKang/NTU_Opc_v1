@@ -1,0 +1,64 @@
+﻿已經開始建置於 2017/10/6 上午 08:51:11。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\roboop.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\3rdParty\newmat /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _LIB /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\3rdParty\roboop\clik.cpp ..\3rdParty\roboop\comp_dq.cpp ..\3rdParty\roboop\comp_dqp.cpp ..\3rdParty\roboop\config.cpp ..\3rdParty\roboop\controller.cpp ..\3rdParty\roboop\control_select.cpp ..\3rdParty\roboop\delta_t.cpp ..\3rdParty\roboop\dynamics.cpp ..\3rdParty\roboop\dynamics_sim.cpp ..\3rdParty\roboop\homogen.cpp ..\3rdParty\roboop\invkine.cpp ..\3rdParty\roboop\IOfile.cpp ..\3rdParty\roboop\kinemat.cpp ..\3rdParty\roboop\quaternion.cpp ..\3rdParty\roboop\robot.cpp ..\3rdParty\roboop\trajectory.cpp ..\3rdParty\roboop\utils.cpp
+         clik.cpp
+         comp_dq.cpp
+         comp_dqp.cpp
+         config.cpp
+         controller.cpp
+         control_select.cpp
+         delta_t.cpp
+         dynamics.cpp
+         dynamics_sim.cpp
+         homogen.cpp
+         invkine.cpp
+     1>..\3rdParty\roboop\invkine.cpp(171): warning C4305: '正在初始化' : 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+     1>..\3rdParty\roboop\invkine.cpp(348): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(509): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(615): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(755): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(916): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(1023): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(1150): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(1311): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\invkine.cpp(1419): warning C4101: 'e' : 未參考的區域變數
+         IOfile.cpp
+         kinemat.cpp
+         quaternion.cpp
+         robot.cpp
+     1>..\3rdParty\roboop\robot.cpp(441): warning C4800: 'Real' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>..\3rdParty\roboop\robot.cpp(402): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\robot.cpp(556): warning C4800: 'Real' : 強制將 bool 的值定為 'true' 或 'false' (效能警告)
+     1>..\3rdParty\roboop\robot.cpp(511): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\robot.cpp(617): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\robot.cpp(683): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\robot.cpp(784): warning C4101: 'e' : 未參考的區域變數
+     1>..\3rdParty\roboop\robot.cpp(949): warning C4101: 'e' : 未參考的區域變數
+         trajectory.cpp
+         utils.cpp
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Release\roboop.lib" /NOLOGO .\Release/clik.obj
+         .\Release/comp_dq.obj
+         .\Release/comp_dqp.obj
+         .\Release/config.obj
+         .\Release/controller.obj
+         .\Release/control_select.obj
+         .\Release/delta_t.obj
+         .\Release/dynamics.obj
+         .\Release/dynamics_sim.obj
+         .\Release/homogen.obj
+         .\Release/invkine.obj
+         .\Release/IOfile.obj
+         .\Release/kinemat.obj
+         .\Release/quaternion.obj
+         .\Release/robot.obj
+         .\Release/trajectory.obj
+         .\Release/utils.obj
+         roboop.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\.\Release\roboop.lib
+     1>專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\roboop.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:10.59
