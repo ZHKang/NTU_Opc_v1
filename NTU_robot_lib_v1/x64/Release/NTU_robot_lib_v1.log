@@ -1,12 +1,12 @@
-﻿已經開始建置於 2017/10/19 上午 11:33:21。
+﻿已經開始建置於 2017/10/19 下午 01:55:38。
      1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_Opc_v1\NTU_robot_lib_v1\NTU_robot_lib_v1.vcxproj"。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../3rdParty /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D _WIN32 /D WIN32 /D _NONDEBUG /D _CONSOLE /D MAX_EXT_API_CONNECTIONS=255 /D NON_MATLAB_PARSING /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\remoteApi\extApi.c ..\..\remoteApi\extApiPlatform.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\externalIK /I..\..\remoteApi /I..\3rdParty /I..\3rdParty\newmat /I..\..\include /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D _WIN32 /D WIN32 /D _NONDEBUG /D _CONSOLE /D MAX_EXT_API_CONNECTIONS=255 /D NON_MATLAB_PARSING /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TC /errorReport:prompt ..\..\remoteApi\extApi.c ..\..\remoteApi\extApiPlatform.c
          extApi.c
          extApiPlatform.c
          Adding library: Winmm.lib
          Adding library: Ws2_32.lib
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../3rdParty /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D _WIN32 /D WIN32 /D _NONDEBUG /D _CONSOLE /D MAX_EXT_API_CONNECTIONS=255 /D NON_MATLAB_PARSING /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt test_v0.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\..\externalIK /I..\..\remoteApi /I..\3rdParty /I..\3rdParty\newmat /I..\..\include /Zi /nologo /W3 /WX- /sdl /Od /Oi /GL /D _WIN32 /D WIN32 /D _NONDEBUG /D _CONSOLE /D MAX_EXT_API_CONNECTIONS=255 /D NON_MATLAB_PARSING /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt test_v0.cpp
          test_v0.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\V-REP3\V-REP_PRO_EDU\NTU_robot_lib_v1.exe" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Program Files\V-REP3\V-REP_PRO_EDU\NTU_robot_lib_v1.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\V-REP3\V-REP_PRO_EDU\NTU_robot_lib_v1.lib" /MACHINE:X64 /debug x64\Release\extApi.obj
@@ -62,4 +62,4 @@
 
 建置成功。
 
-經過時間 00:00:02.21
+經過時間 00:00:02.02

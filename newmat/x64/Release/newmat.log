@@ -1,4 +1,4 @@
-﻿已經開始建置於 2017/10/19 上午 11:32:54。
+﻿已經開始建置於 2017/10/19 下午 01:47:23。
      1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_Opc_v1\newmat\newmat.vcxproj"。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I..\3rdParty\newmat /Zi /nologo /W3 /WX- /O2 /Ob1 /D NDEBUG /D WIN32 /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /errorReport:prompt ..\3rdParty\newmat\bandmat.cpp ..\3rdParty\newmat\cholesky.cpp ..\3rdParty\newmat\evalue.cpp ..\3rdParty\newmat\fft.cpp ..\3rdParty\newmat\hholder.cpp ..\3rdParty\newmat\jacobi.cpp ..\3rdParty\newmat\myexcept.cpp ..\3rdParty\newmat\newfft.cpp ..\3rdParty\newmat\newmat1.cpp ..\3rdParty\newmat\newmat2.cpp ..\3rdParty\newmat\newmat3.cpp ..\3rdParty\newmat\newmat4.cpp ..\3rdParty\newmat\newmat5.cpp ..\3rdParty\newmat\newmat6.cpp ..\3rdParty\newmat\newmat7.cpp ..\3rdParty\newmat\newmat8.cpp ..\3rdParty\newmat\newmat9.cpp ..\3rdParty\newmat\newmatex.cpp ..\3rdParty\newmat\newmatnl.cpp ..\3rdParty\newmat\newmatrm.cpp ..\3rdParty\newmat\nm_misc.cpp ..\3rdParty\newmat\solution.cpp ..\3rdParty\newmat\sort.cpp ..\3rdParty\newmat\submat.cpp ..\3rdParty\newmat\svd.cpp
@@ -69,4 +69,4 @@
 
 建置成功。
 
-經過時間 00:00:05.49
+經過時間 00:00:04.65

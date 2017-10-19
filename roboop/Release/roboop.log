@@ -1,5 +1,7 @@
-﻿已經開始建置於 2017/10/6 上午 08:51:11。
-     1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\roboop.vcxproj"。
+﻿已經開始建置於 2017/10/19 下午 01:39:57。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_Opc_v1\roboop\roboop.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 由於另一個處理序正在使用檔案 'c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_opc_v1\roboop\release\roboop.lib'，所以無法存取該檔案。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 由於另一個處理序正在使用檔案 'c:\program files\v-rep3\v-rep_pro_edu\programming\ntu_opc_v1\roboop\release\roboop.lib'，所以無法存取該檔案。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\3rdParty\newmat /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D NDEBUG /D WIN32 /D _LIB /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\3rdParty\roboop\clik.cpp ..\3rdParty\roboop\comp_dq.cpp ..\3rdParty\roboop\comp_dqp.cpp ..\3rdParty\roboop\config.cpp ..\3rdParty\roboop\controller.cpp ..\3rdParty\roboop\control_select.cpp ..\3rdParty\roboop\delta_t.cpp ..\3rdParty\roboop\dynamics.cpp ..\3rdParty\roboop\dynamics_sim.cpp ..\3rdParty\roboop\homogen.cpp ..\3rdParty\roboop\invkine.cpp ..\3rdParty\roboop\IOfile.cpp ..\3rdParty\roboop\kinemat.cpp ..\3rdParty\roboop\quaternion.cpp ..\3rdParty\roboop\robot.cpp ..\3rdParty\roboop\trajectory.cpp ..\3rdParty\roboop\utils.cpp
          clik.cpp
@@ -56,9 +58,9 @@
          .\Release/robot.obj
          .\Release/trajectory.obj
          .\Release/utils.obj
-         roboop.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\.\Release\roboop.lib
-     1>專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_robot_lib_v1\roboop\roboop.vcxproj" (Rebuild 目標) 建置完成。
+         roboop.vcxproj -> C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_Opc_v1\roboop\.\Release\roboop.lib
+     1>專案 "C:\Program Files\V-REP3\V-REP_PRO_EDU\programming\NTU_Opc_v1\roboop\roboop.vcxproj" (Rebuild 目標) 建置完成。
 
 建置成功。
 
-經過時間 00:00:10.59
+經過時間 00:00:08.33
